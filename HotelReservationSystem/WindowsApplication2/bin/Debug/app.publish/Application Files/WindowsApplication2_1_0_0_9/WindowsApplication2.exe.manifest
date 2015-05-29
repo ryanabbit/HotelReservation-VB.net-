@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="WindowsApplication2.exe" version="1.0.0.9" publicKeyToken="711c21e11acc908f" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsApplication2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="WindowsApplication2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          如果您要變更 Windows 使用者帳戶控制層級，請將 
+          requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果您要利用檔案及登錄模擬，
+         以便提供回溯相容性，則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApplication2.exe" size="138752">
+      <assemblyIdentity name="WindowsApplication2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vZ+HMEbbwhXB0eGAISdpRwhPetY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="image\p1.png" size="263178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>noavFndUcNp2/AxgKaxwuDD3ixk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\p2.png" size="269135">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4KxGB64WklF91ov4QgxwgbLVexs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\p3.png" size="272661">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4gvibBWcMfcQH9aD1gaIkbM4wNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsApplication2.exe.config" size="516">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ahmfT0m4QBbfkXjdxxYiUcdz2wg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-11707FHLRVF\Administrator" issuerKeyHash="6e506ab807365c3b928593b57311b6b688711074" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GUf7LJH3SaJsnvDVF9V0ADeJLow=</DigestValue></Reference></SignedInfo><SignatureValue>mRop8BlaEGldIqgqmgCXD67TjgjFEW4/xZEEw80gBTEMwX/GPQbobT1FYP3+8nmqfKS0+Mr4+vDsG/UFV0oW8P7fW/FlWfRwbVB88bJUzLPnxEMBNfEmphw415NqQcfhy8jqpfZgLIah9FZvDijpPx9r1vaxn1XKGh223aewoKA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0IGZJ+pBGGUnSG8G4L8UMqQ+7mCwMgKiCa2hbpJisetpojQ6I4or0nv8kRwbxHAcMlMcFY7TgCvJx7iltTeewVWu3FY44gmJTCRf7x1vddY/FC157B6FyjjnupsBfIFKjKOYiUEw6DFc9Xxh2YZtJmYwtanHxSmnw/4pYQTuozk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8c2e89370074d517d5f09e6ca249f7912cfb4719" Description="" Url=""><as:assemblyIdentity name="WindowsApplication2.exe" version="1.0.0.9" publicKeyToken="711c21e11acc908f" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-11707FHLRVF\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JbIgVjUiSTdjxPSl06RhDWCD8Ss=</DigestValue></Reference></SignedInfo><SignatureValue>eo8FkLcawOu9F3ofPdi8PRofvlIDr+xR3x2QN5dj6ufQcXOorGDfgzQTZ1wF1IKtZQ46Ok526zh+/Sx3RqXxA8i1oSXYcy5Q6gkE+rGcje7IvYyPva+lSQwXUu7H2Rbq5TL7D7Hm6zH7HV2LpIgj562YMuVkaZgB8379lEYouhw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0IGZJ+pBGGUnSG8G4L8UMqQ+7mCwMgKiCa2hbpJisetpojQ6I4or0nv8kRwbxHAcMlMcFY7TgCvJx7iltTeewVWu3FY44gmJTCRf7x1vddY/FC157B6FyjjnupsBfIFKjKOYiUEw6DFc9Xxh2YZtJmYwtanHxSmnw/4pYQTuozk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQchyV0KIjybBGPwAP8Ey5UjANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoAVwBJAE4ALQAxADEANwAwADcARgBIAEwAUgBWAEYAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE0MTEyMTA1MTI1N1oXDTE1MTEyMTExMTI1N1owRTFDMEEGA1UEAx46AFcASQBOAC0AMQAxADcAMAA3AEYASABMAFIAVgBGAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0IGZJ+pBGGUnSG8G4L8UMqQ+7mCwMgKiCa2hbpJisetpojQ6I4or0nv8kRwbxHAcMlMcFY7TgCvJx7iltTeewVWu3FY44gmJTCRf7x1vddY/FC157B6FyjjnupsBfIFKjKOYiUEw6DFc9Xxh2YZtJmYwtanHxSmnw/4pYQTuozkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBELlLV1f8ErmYi0+q64IfDYAkw9+Vd1a7z/47cpC8CtBnJXJ7ia3LeShdIH+Ne2Aw5TaH+5XjSRsBsI9UpDYAvQZ4aZGpmHm5T3flURsOHWLmOMvoYB/U1pjbTRswv44u54HW4rNYETWo6Ms4RUQeLtGoYcAXGR+X4tIAgDkrr+g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
